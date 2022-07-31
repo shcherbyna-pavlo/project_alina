@@ -1,0 +1,75 @@
+* {
+   box-sizing: border-box;
+}
+body {
+   font-family: 'Mulish', sans-serif;
+}
+#wrapper {
+   position: relative;
+   max-width: 100%;
+   background: #323233;
+}
+.container {
+   max-width: 1280px;
+   padding: 0 20px;
+   margin: 0 auto;
+   /* overflow: hidden; */
+}
+img {
+   max-width: 100%;
+   height: auto;
+   vertical-align: top;
+}
+.f_line {
+   background: #292828;
+}
+.f_element {
+   /* position: relative; */
+   font-weight: 700;
+   font-size: 12px;
+   line-height: 15px;
+   letter-spacing: 0.5px;
+   text-transform: uppercase;
+   margin: 0 -25px;
+   padding: 16px 0;
+   overflow: hidden;
+   text-align: center;
+}
+.f_element ul {
+   display: inline-block;
+}
+.f_element li {
+   display: inline-block;
+   padding: 21px 25px 0;
+}
+.f_one {
+   float: left;
+}
+.f_two {
+   float: right;
+}
+.f_element a {
+   text-decoration: none;
+   color: #FFFFFF;
+}
+.button {
+   padding: 13px 28px;
+   background: #FF6B17;
+   border-radius: 2px;
+}
+.m_lin1 {
+   max-height: 504px;
+   overflow: hidden;
+   position: relative;
+   max-width: 100%;
+}
+.m_lin1 img {
+   position: absolute;
+   top: 0;
+   left: 0;
+}
+.texp_line1 {
+   margin: 0 auto;
+   max-width: 1000px;
+   color: #FFFFFF;
+}
