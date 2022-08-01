@@ -107,7 +107,45 @@ h1 span {
    font-weight: 600;
 }
 .inp {
-   padding-top: 22px;
+   padding: 22px 0px;
+
+}
+.inp>div {
+   display: inline-block;
+}
+.inp>div:first-child {
+   padding: 17px 15px;
+   background: #FFFFFF;
+}
+.date {
+   padding: 17px 15px;
+   background: #FFFFFF;
+}
+.m_btn {
+   text-decoration: none;
+   padding: 18px 48px;
+   background: #FF6B17;
+   border-radius: 2px;
+   color: #FFFFFF;
+   font-weight: 700;
+   text-transform: uppercase;
+}
+.m_line2_text {
+   color: #FFFFFF;
+   text-align: center;
+}
+.m_line2_text a {
+   display: inline-block;
+   text-decoration: none;
+}
+h2 {
+   font-weight: 600;
+   font-size: 30px;
+   line-height: 38px;
+   letter-spacing: 0.58px;
+}
+h2 span {
+   color: #FF6B17;
 }
 /* .text_line2 {
    padding: 40px 0;
